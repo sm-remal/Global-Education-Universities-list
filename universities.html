@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 20 Universities | Global Education Info</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gei-container">
+    <header class="gei-header">
+      <h1 class="gei-title">Top 20 Global Universities</h1>
+      <p class="gei-subtitle">Find the best universities, programs, and admission details.</p>
+    </header>
+
+    <div class="gei-search-filter">
+      <input type="text" id="gei-search-input" placeholder="Search universities..." class="gei-search-input">
+      <select id="gei-country-filter" class="gei-filter-select">
+        <option value="all">All Countries</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Australia</option>
+        <option value="europe">Europe</option>
+        <option value="asia">Asia</option>
+      </select>
+    </div>
+
+    <div id="gei-universities-list" class="gei-universities-grid"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
